@@ -1,0 +1,99 @@
+$flex:flex;
+$width20:20%;
+$width80:80%;
+$height20:20rem;
+$textalign:justify;
+$center:center;
+$column:column;
+$width100:100%;
+$width60:60%;
+$width50:50%;
+
+.App {
+    text-align: $center;
+    width: width75;
+    margin: auto;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    display: $flex;
+    flex-direction: $column;
+    align-items: $center;
+    justify-content: $center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  
+  .flex-container{
+    display: $flex;
+  }
+  
+  .flex-container-h{
+    flex-direction: row;
+  }
+
+  .flex-container-v{
+    flex-direction: column;
+  }
+  
+  .flex-align-center {
+    justify-content: $center;
+  }
+  
+  .flexwrap{
+    flex-wrap: wrap;
+  }
+  
+  .width100{
+    width: $width100;
+  }
+  
+  .flex-align-items-center {
+    align-items: $center;
+  }
+  
+  .width40{
+    width:40%;
+  }
+  
+  .flex-align-items-end{
+    justify-content: flex-end;
+  }
+  
+  .width60{
+    width:$width60;
+  }
+  
+  .flex-align-items-start{
+    justify-content: flex-start;
+  }
+
+  .flex1{
+    flex:1;
+  }
+  .flex2{
+    flex:2;
+  }
+  .flex5{
+    flex:5
+  }
+  .padding_1rem{
+    padding: 1rem;
+  }
+  .marg_right_1rem{
+    margin-right: 1rem;
+  }
+  .width50{
+    width:$width50;
+  }
+  .flexjustifycontent{
+    justify-content: end !important;
+  }
+  .paddingleft5{
+    padding-left: 5rem !important;
+  }
+   
+ 
