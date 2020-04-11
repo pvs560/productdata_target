@@ -1,5 +1,5 @@
 import history from "../helpers/history";
-import axios from 'axios';
+
 
 export const createReducer = (initialState, reducerMap) => {
     return (state = initialState, action) => {
@@ -28,10 +28,6 @@ export const replaceHistory = (newState) => {
   
 export const pushHistory = (newState) => {
     history.push(newState);
-  }
-
-export const getRequest = (param) => {
-      return axios.get(`https://www.omdbapi.com/?t=${param}&apikey=ffdb8d01`);
   }
 
 export const coloumnData = () =>( [
